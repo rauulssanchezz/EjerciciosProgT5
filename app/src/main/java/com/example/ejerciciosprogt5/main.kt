@@ -5,8 +5,12 @@ fun main(){
     var cadena1=" asdfghjikl "
     var cadena2="swedrftgyhjukiolpñ"
 
+    println(longitud(cadena1))
+
     if(cadena1.equals(cadena2)){
         println("hola")
+    }else{
+        println("no coinciden")
     }
 
     println(cadena1.compareTo(cadena2))
